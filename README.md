@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
+# Ignite Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Ignite Timer is a task tracking application inspired by the Pomodoro Technique, a time management method developed by Francesco Cirillo. The application allows users to input a task, set a timer for focused work, and track the history of their tasks, providing insights into their work patterns and productivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Ignite Timer Preview](./preview.png)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Task Input**: Users can define the task they'll be working on.
+- **Timer Setting**: Set a custom time duration for each task.
+- **Task Tracking**: Visualize the progress of ongoing tasks and review the history of completed, paused, or interrupted tasks.
+- **Task History**: View a log of all tasks, their status, and the time spent on them.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **React.js**: For building the user interface.
+- **Styled Components**: For styling the components.
+- **TypeScript**: For adding static type-checking along with the latest ECMAScript features.
+- **ESLint**: To enforce a consistent coding style and find problems in the code.
+- **useReducer**: For managing state logic in the component hierarchy.
+- **useContext**: To provide a global state for the application.
+- **Immer**: To handle the state immutability in a more convenient way.
+- **Date-fns**: For formatting and managing dates and times.
+- **Phosphor-react**: For using icons throughout the application.
+- **React-hook-form**: For managing form state and validation.
+- **Zod**: For schema validation.
+- **React Router**: For managing navigation and conditional rendering of components.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or Yarn
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your_username_/ignite-timer.git
+   ```
