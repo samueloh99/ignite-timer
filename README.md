@@ -4,7 +4,7 @@
 
 Ignite Timer is a task tracking application inspired by the Pomodoro Technique, a time management method developed by Francesco Cirillo. The application allows users to input a task, set a timer for focused work, and track the history of their tasks, providing insights into their work patterns and productivity.
 
-![Ignite Timer Preview](./src/asstets/preview.png)
+![Ignite Timer Preview](./src/assets/preview.png)
 
 ## Features
 
